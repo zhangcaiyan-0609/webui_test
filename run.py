@@ -29,8 +29,8 @@ import os
 #1  生成allure测试报告数据
 
 pytest.main(["--alluredir=test_result/reports",
-             '--reruns','3',  #指定失败重运行的次数
-             '--reruns-delay', '2' #指定失败重运行的间隔时间
+             '--reruns','3',  
+             '--reruns-delay', '2' 
              ])
 # 2 打开命令终端 运行allure serve test_result/reports
 
