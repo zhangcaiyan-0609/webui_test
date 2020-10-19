@@ -1,0 +1,106 @@
+2020-10-12 13:40:44,109 INFO [test_login.py 30] 用例--密码为空--执行成功
+2020-10-12 13:40:44,547 INFO [test_login.py 30] 用例--手机号为空--执行成功
+2020-10-12 13:40:45,892 INFO [test_login.py 49] 用例--手机号错误--执行成功
+2020-10-12 13:40:47,059 INFO [test_login.py 49] 用例--密码错误--执行成功
+2020-10-12 13:40:49,682 INFO [test_login.py 66] 用例--登录成功--执行成功
+2020-10-12 19:31:14,944 ERROR [test_invest.py 43] 用例--投资金额小于剩余金额但不是100的倍数--执行失败
+2020-10-12 19:31:14,945 ERROR [test_invest.py 44] assert '请正确填写投标金额' == '投资金额必须为100的倍数'
+  - 投资金额必须为100的倍数
+  + 请正确填写投标金额
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/py31_1012/testcase/test_invest.py", line 41, in test_invest_not_100_double
+    assert res == expected
+AssertionError: assert '请正确填写投标金额' == '投资金额必须为100的倍数'
+  - 投资金额必须为100的倍数
+  + 请正确填写投标金额
+2020-10-13 12:50:44,023 INFO [test_invest.py 54] 用例--投资金额不是10的倍数--执行通过
+2020-10-13 12:53:19,708 INFO [test_invest.py 35] 用例--投资金额小于等于0--执行通过
+2020-10-13 12:53:20,199 INFO [test_invest.py 53] 用例--投资金额不是10的倍数--执行通过
+2020-10-13 14:52:21,926 INFO [test_invest.py 36] 用例--投资金额小于等于0--执行通过
+2020-10-13 14:52:22,456 INFO [test_invest.py 54] 用例--投资金额不是10的倍数--执行通过
+2020-10-13 14:59:35,636 INFO [test_invest.py 36] 用例--投资金额小于等于0--执行通过
+2020-10-13 14:59:36,186 INFO [test_invest.py 54] 用例--投资金额不是10的倍数--执行通过
+2020-10-13 15:10:57,841 INFO [test_invest.py 36] 用例--投资金额小于等于0--执行通过
+2020-10-13 15:10:58,400 INFO [test_invest.py 54] 用例--投资金额不是10的倍数--执行通过
+2020-10-13 15:16:53,898 INFO [test_invest.py 36] 用例--投资金额小于等于0--执行通过
+2020-10-13 15:16:54,463 INFO [test_invest.py 54] 用例--投资金额不是10的倍数--执行通过
+2020-10-13 15:24:57,483 INFO [test_invest.py 36] 用例--投资金额小于等于0--执行通过
+2020-10-13 15:24:58,238 INFO [test_invest.py 54] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-13 15:24:58,381 INFO [test_invest.py 54] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-13 15:38:55,674 INFO [test_invest.py 39] 用例--投资金额小于等于0--执行通过
+2020-10-13 15:39:05,198 INFO [test_invest.py 57] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-13 15:39:05,290 INFO [test_invest.py 57] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 10:31:44,673 INFO [test_invest.py 57] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 10:31:44,755 INFO [test_invest.py 57] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 10:36:29,523 INFO [test_invest.py 39] 用例--投资金额小于等于0--执行通过
+2020-10-14 10:36:33,718 INFO [test_invest.py 39] 用例--投资金额为空--执行通过
+2020-10-14 10:36:37,902 INFO [test_invest.py 39] 用例--投资金额大于剩余金额--执行通过
+2020-10-14 10:36:42,139 ERROR [test_invest.py 35] 用例--投资金额不是100的倍数--执行失败
+2020-10-14 10:36:42,139 ERROR [test_invest.py 36] assert '投标金额必须为100的倍数' == '投资金额必须为100的倍数'
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/py31_1012/testcase/test_invest.py", line 33, in test_invest_error
+    assert res == expected
+AssertionError: assert '投标金额必须为100的倍数' == '投资金额必须为100的倍数'
+2020-10-14 10:36:42,302 INFO [test_invest.py 57] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 10:36:42,370 INFO [test_invest.py 57] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 10:45:45,455 INFO [test_invest.py 40] 用例--投资金额小于等于0--执行通过
+2020-10-14 10:45:49,634 INFO [test_invest.py 40] 用例--投资金额为空--执行通过
+2020-10-14 10:45:53,854 INFO [test_invest.py 40] 用例--投资金额大于剩余金额--执行通过
+2020-10-14 10:45:58,087 INFO [test_invest.py 40] 用例--投资金额不是100的倍数--执行通过
+2020-10-14 10:45:58,185 INFO [test_invest.py 59] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 10:45:58,256 INFO [test_invest.py 59] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 10:46:20,505 ERROR [test_invest.py 82] 用例--投资金额小于剩余金额并且是100的倍数--执行失败
+2020-10-14 10:46:20,506 ERROR [test_invest.py 83] assert Decimal('10000') == Decimal('-10100.00')
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/py31_1012/testcase/test_invest.py", line 80, in test_invest_pass
+    assert Decimal(case["amount"]) == Decimal(end_amount) - Decimal(start_amount)
+AssertionError: assert Decimal('10000') == Decimal('-10100.00')
+2020-10-14 10:50:07,774 INFO [test_invest.py 40] 用例--投资金额小于等于0--执行通过
+2020-10-14 10:50:11,974 INFO [test_invest.py 40] 用例--投资金额为空--执行通过
+2020-10-14 10:50:16,173 INFO [test_invest.py 40] 用例--投资金额大于剩余金额--执行通过
+2020-10-14 10:50:20,357 INFO [test_invest.py 40] 用例--投资金额不是100的倍数--执行通过
+2020-10-14 10:50:20,456 INFO [test_invest.py 59] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 10:50:20,525 INFO [test_invest.py 59] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 10:57:18,233 INFO [test_invest.py 40] 用例--投资金额小于等于0--执行通过
+2020-10-14 10:57:22,431 INFO [test_invest.py 40] 用例--投资金额为空--执行通过
+2020-10-14 10:57:26,620 INFO [test_invest.py 40] 用例--投资金额大于剩余金额--执行通过
+2020-10-14 10:57:30,819 INFO [test_invest.py 40] 用例--投资金额不是100的倍数--执行通过
+2020-10-14 10:57:30,933 INFO [test_invest.py 59] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 10:57:30,984 INFO [test_invest.py 59] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 10:57:51,938 ERROR [test_invest.py 82] 用例--投资金额小于剩余金额并且是100的倍数--执行失败
+2020-10-14 10:57:51,939 ERROR [test_invest.py 83] assert Decimal('-10000.00') == Decimal('10000')
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/py31_1012/testcase/test_invest.py", line 80, in test_invest_pass
+    assert Decimal(end_amount)-Decimal(start_amount) == Decimal(case["amount"])
+AssertionError: assert Decimal('-10000.00') == Decimal('10000')
+2020-10-14 11:00:29,184 INFO [test_invest.py 40] 用例--投资金额小于等于0--执行通过
+2020-10-14 11:00:33,365 INFO [test_invest.py 40] 用例--投资金额为空--执行通过
+2020-10-14 11:00:37,552 INFO [test_invest.py 40] 用例--投资金额大于剩余金额--执行通过
+2020-10-14 11:00:41,752 INFO [test_invest.py 40] 用例--投资金额不是100的倍数--执行通过
+2020-10-14 11:00:41,872 INFO [test_invest.py 59] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 11:00:41,952 INFO [test_invest.py 59] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 11:01:03,026 INFO [test_invest.py 86] 用例--投资金额小于剩余金额并且是100的倍数--执行通过
+2020-10-14 11:02:37,006 INFO [test_invest.py 40] 用例--投资金额小于等于0--执行通过
+2020-10-14 11:02:41,189 INFO [test_invest.py 40] 用例--投资金额为空--执行通过
+2020-10-14 11:02:45,406 INFO [test_invest.py 40] 用例--投资金额大于剩余金额--执行通过
+2020-10-14 11:02:49,690 INFO [test_invest.py 40] 用例--投资金额不是100的倍数--执行通过
+2020-10-14 11:02:49,824 INFO [test_invest.py 59] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 11:02:49,985 INFO [test_invest.py 59] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 11:03:11,627 INFO [test_invest.py 86] 用例--投资金额小于剩余金额并且是100的倍数--执行通过
+2020-10-14 11:03:19,467 INFO [test_login.py 30] 用例--密码为空--执行成功
+2020-10-14 11:03:20,025 INFO [test_login.py 30] 用例--手机号为空--执行成功
+2020-10-14 11:03:21,147 INFO [test_login.py 49] 用例--手机号错误--执行成功
+2020-10-14 11:03:21,727 INFO [test_login.py 49] 用例--密码错误--执行成功
+2020-10-14 11:03:24,724 INFO [test_login.py 66] 用例--登录成功--执行成功
+2020-10-14 11:04:24,432 INFO [test_invest.py 40] 用例--投资金额小于等于0--执行通过
+2020-10-14 11:04:28,632 INFO [test_invest.py 40] 用例--投资金额为空--执行通过
+2020-10-14 11:04:32,834 INFO [test_invest.py 40] 用例--投资金额大于剩余金额--执行通过
+2020-10-14 11:04:37,034 INFO [test_invest.py 40] 用例--投资金额不是100的倍数--执行通过
+2020-10-14 11:04:37,152 INFO [test_invest.py 59] 用例--投资金额小于100但不是10的倍数--执行通过
+2020-10-14 11:04:37,228 INFO [test_invest.py 59] 用例--投资金额大于100但不是10的倍数--执行通过
+2020-10-14 11:04:58,698 INFO [test_invest.py 86] 用例--投资金额小于剩余金额并且是100的倍数--执行通过
+2020-10-14 11:05:06,677 INFO [test_login.py 30] 用例--密码为空--执行成功
+2020-10-14 11:05:07,124 INFO [test_login.py 30] 用例--手机号为空--执行成功
+2020-10-14 11:05:07,746 INFO [test_login.py 49] 用例--手机号错误--执行成功
+2020-10-14 11:05:08,310 INFO [test_login.py 49] 用例--密码错误--执行成功
+2020-10-14 11:05:11,427 INFO [test_login.py 66] 用例--登录成功--执行成功
