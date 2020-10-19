@@ -1,0 +1,8 @@
+INFO     cathy:base_page.py:140 元素--('xpath', '//input[@data-amount]')--获取属性成功
+INFO     cathy:base_page.py:211 清空文本内容--('xpath', '//input[@data-amount]')--成功,
+INFO     cathy:base_page.py:174 输入文本内容--('xpath', '//input[@data-amount]')--成功,
+INFO     cathy:base_page.py:157 元素--('xpath', '//button[@class="btn btn-special height_style"]')--元素点击成功,
+INFO     cathy:base_page.py:55 元素--('xpath', "//div[@class='layui-layer-content']//div[text()='投标成功！']")--等待成功,等待时间是0.46306896209716797秒
+INFO     cathy:base_page.py:78 元素--('xpath', "//div[@class='layui-layer-content']//button[text()='查看并激活']")--等待成功,等待时间是0.024147987365722656秒
+INFO     cathy:base_page.py:55 元素--('xpath', "//li[@class='color_sub']")--等待成功,等待时间是0.019327878952026367秒
+INFO     cathy:test_invest.py:88 用例--投资金额小于剩余金额并且是100的倍数--执行通过

@@ -1,0 +1,42 @@
+2020-10-19 15:29:58,627 ERROR [test_invest.py 37] 用例--投资金额大于剩余金额--执行失败
+2020-10-19 15:29:58,627 ERROR [test_invest.py 38] assert '购买标的金额不能大于标总金额' == '购买标的金额不能大于标剩余金额'
+  - 购买标的金额不能大于标剩余金额
+  ?            ^^
+  + 购买标的金额不能大于标总金额
+  ?            ^
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/py31_1012/testcase/test_invest.py", line 35, in test_invest_error
+    assert res == expected
+AssertionError: assert '购买标的金额不能大于标总金额' == '购买标的金额不能大于标剩余金额'
+  - 购买标的金额不能大于标剩余金额
+  ?            ^^
+  + 购买标的金额不能大于标总金额
+  ?            ^
+2020-10-19 15:30:03,318 ERROR [test_invest.py 37] 用例--投资金额大于剩余金额--执行失败
+2020-10-19 15:30:03,318 ERROR [test_invest.py 38] assert '购买标的金额不能大于标总金额' == '购买标的金额不能大于标剩余金额'
+  - 购买标的金额不能大于标剩余金额
+  ?            ^^
+  + 购买标的金额不能大于标总金额
+  ?            ^
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/py31_1012/testcase/test_invest.py", line 35, in test_invest_error
+    assert res == expected
+AssertionError: assert '购买标的金额不能大于标总金额' == '购买标的金额不能大于标剩余金额'
+  - 购买标的金额不能大于标剩余金额
+  ?            ^^
+  + 购买标的金额不能大于标总金额
+  ?            ^
+2020-10-19 15:30:07,971 ERROR [test_invest.py 37] 用例--投资金额大于剩余金额--执行失败
+2020-10-19 15:30:07,971 ERROR [test_invest.py 38] assert '购买标的金额不能大于标总金额' == '购买标的金额不能大于标剩余金额'
+  - 购买标的金额不能大于标剩余金额
+  ?            ^^
+  + 购买标的金额不能大于标总金额
+  ?            ^
+Traceback (most recent call last):
+  File "/Users/zhangcaiyan/Desktop/py31_1012/testcase/test_invest.py", line 35, in test_invest_error
+    assert res == expected
+AssertionError: assert '购买标的金额不能大于标总金额' == '购买标的金额不能大于标剩余金额'
+  - 购买标的金额不能大于标剩余金额
+  ?            ^^
+  + 购买标的金额不能大于标总金额
+  ?            ^

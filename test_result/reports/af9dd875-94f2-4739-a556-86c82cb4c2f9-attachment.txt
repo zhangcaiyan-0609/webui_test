@@ -1,0 +1,4 @@
+INFO     cathy:base_page.py:211 清空文本内容--('xpath', '//input[@data-amount]')--成功,
+INFO     cathy:base_page.py:174 输入文本内容--('xpath', '//input[@data-amount]')--成功,
+INFO     cathy:base_page.py:121 元素--('xpath', '//button[@class="btn btn-special height_style"]')--获取文本成功
+INFO     cathy:test_invest.py:61 用例--投资金额小于100但不是10的倍数--执行通过

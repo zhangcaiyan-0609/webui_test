@@ -14,13 +14,14 @@ from page.user_page import UserPage
 from selenium import webdriver
 #读取配置文件中的配置，判断是否是以无头浏览器模式运行
 def create_dirver():
-    if conf.getboolean('run','headless'):
+    boll = conf.getboolean("run","headless")
+    if boll:
         options = webdriver.ChromeOptions()
         options.add_argument('--headless')
         options.add_argument('--disable-gpu')
         driver = webdriver.Chrome(options=options)
     else:
-        driver= Chrome()
+        driver = Chrome()
     return driver
 
 @pytest.fixture(scope="class")
@@ -35,6 +36,7 @@ def login_setup():
 @pytest.fixture(scope="class")
 def invest_setup():
     driver = create_dirver()
+    driver.maximize_window()
     driver.implicitly_wait(15)
     driver.get(conf.get('env', 'base_url') + conf.get('env', 'url_path'))
     login_page = LoginPage(driver)

@@ -24,16 +24,16 @@ if __name__ == '__main__':
 """
 
 import pytest
-
 import os
 
 #1  生成allure测试报告数据
+
 pytest.main(["--alluredir=test_result/reports",
-             '--rerun','3',
-             'reyuns-delay','2'
+             '--reruns','3',  #指定失败重运行的次数
+             '--reruns-delay', '2' #指定失败重运行的间隔时间
              ])
-#2 打开命令终端 运行allure serve test_result/reports
+# 2 打开命令终端 运行allure serve test_result/reports
 
 #3 启动allure服务
-os.system(("allure serve test_result/reports"))
+# os.system(("allure serve test_result/reports"))
 

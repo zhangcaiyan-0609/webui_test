@@ -1,0 +1,6 @@
+INFO     cathy:base_page.py:211 清空文本内容--('xpath', '//input[@data-amount]')--成功,
+INFO     cathy:base_page.py:174 输入文本内容--('xpath', '//input[@data-amount]')--成功,
+INFO     cathy:base_page.py:157 元素--('xpath', '//button[@class="btn btn-special height_style"]')--元素点击成功,
+INFO     cathy:base_page.py:55 元素--('xpath', "//div[@class='text-center']")--等待成功,等待时间是0.4031102657318115秒
+INFO     cathy:base_page.py:157 元素--('xpath', "//a[@class='layui-layer-btn0']")--元素点击成功,
+INFO     cathy:test_invest.py:41 用例--投资金额为负数--执行通过

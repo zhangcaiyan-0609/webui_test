@@ -1,0 +1,2 @@
+False
+{'title': '投资金额等于0', 'amount': '0', 'expected': '请正确填写投标金额'}
